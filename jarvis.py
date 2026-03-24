@@ -62,7 +62,7 @@ while True:
         except:
             print("No result found")
             speak("Sorry, I could not find anything")
-            
+
     elif "note" in command:
          note = input("Write your note: ")
 
@@ -73,4 +73,4 @@ while True:
          speak("Note saved successfully")
 
     else:
-       print("Command not recognized")
+       print("Command is not recognized")
