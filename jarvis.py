@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pyttsx3
 import datetime
 import webbrowser
@@ -72,4 +73,58 @@ while True:
          speak("Note saved successfully")
 
     else:
+=======
+import pyttsx3
+import datetime
+import webbrowser
+import os
+
+engine = pyttsx3.init()
+
+def speak(text):
+    engine.say(text)
+    engine.runAndWait()
+
+def wish():
+    hour = int(datetime.datetime.now().hour)
+
+    if hour < 12:
+        speak("Good Morning")
+    elif hour < 18:
+        speak("Good Afternoon")
+    else:
+        speak("Good Evening")
+
+    speak("I am Jarvis. How can I help you?")
+
+wish()
+
+while True:
+
+    command = input("Enter command: ").lower()
+
+    if "open youtube" in command:
+        webbrowser.open("https://youtube.com")
+
+    elif "open google" in command:
+        webbrowser.open("https://google.com")
+
+    elif "time" in command:
+        time = datetime.datetime.now().strftime("%H:%M")
+        speak("The time is " + time)
+        print("Time:", time)
+
+    elif "open code" in command:
+        os.system("code")
+
+    elif "search" in command:
+        query = input("What do you want to search? ")
+        webbrowser.open("https://google.com/search?q=" + query)
+
+    elif "exit" in command:
+        speak("Goodbye")
+        break
+
+    else:
+>>>>>>> 2f11e34f190bc0367ac843c2c7f90fed48f11cb3
         print("Command not recognized")
