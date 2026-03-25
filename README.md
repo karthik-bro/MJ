@@ -50,6 +50,17 @@ cd MJ
 
 pip install speechrecognition pyttsx3 pyaudio
 
+4. Setup Weather API
+
+i. Go to: https://openweathermap.org/api
+
+ii. Create an account
+
+iii. Generate API key
+
+iv. Replace in code:
+
+## api_key = "YOUR_API_KEY"
 ---
 
 ## ▶️ Usage
@@ -72,7 +83,7 @@ Then speak commands like:
 - Integrate AI APIs (ChatGPT, etc.)
 - Add automation features
 - Improve voice accuracy
-
+- Weather report 
 ---
 
 # 👤 Author
