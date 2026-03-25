@@ -74,7 +74,7 @@ while True:
     elif "weather" in command:
       city = input("Enter city name: ")
 
-      api_key = "4f2c998cb189660a90e75eca9fb82f49"
+      api_key = "YOUR_API_KEY"  # Replace with your OpenWeatherMap API key
 
       url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
