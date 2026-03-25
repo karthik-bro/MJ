@@ -71,6 +71,28 @@ while True:
 
          print("Note saved")
          speak("Note saved successfully")
+    elif "weather" in command:
+      city = input("Enter city name: ")
 
+      api_key = "4f2c998cb189660a90e75eca9fb82f49"
+
+      url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
+
+      response = requests.get(url)
+      data = response.json()
+
+      print(data)  # DEBUG
+
+      if data.get("cod") == 200:
+        temp = data["main"]["temp"]
+        desc = data["weather"][0]["description"]
+
+        print(f"Temperature: {temp}°C")
+        print(f"Condition: {desc}")
+
+        speak(f"Temperature is {temp} degree Celsius with {desc}")
+      else:
+        print("Error:", data.get("message"))
+        speak("Unable to fetch weather")
     else:
        print("Command is not recognized")
