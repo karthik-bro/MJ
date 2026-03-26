@@ -96,6 +96,7 @@ Then speak commands like:
 
 Feel free to fork this repo and improve it!
 Pull requests are welcome.
+when you are trying to making use of my code try to use your own API keys
 
 ---
 
