@@ -16,7 +16,7 @@ It can perform tasks like responding to voice commands, opening applications, ta
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - SpeechRecognition
