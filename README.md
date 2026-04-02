@@ -5,7 +5,7 @@ It can perform tasks like responding to voice commands, opening applications, ta
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🎙️ Voice command recognition
 - 💬 Text-to-speech response
