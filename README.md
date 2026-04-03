@@ -7,7 +7,6 @@ It can perform tasks like responding to voice commands, opening applications, ta
 
 ## Features
 
--  Voice command recognition
 -  Text-to-speech response
 -  Open websites (Google, YouTube, etc.)
 -  Notes feature (save and read notes)
