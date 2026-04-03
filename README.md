@@ -7,12 +7,12 @@ It can perform tasks like responding to voice commands, opening applications, ta
 
 ## Features
 
-- 🎙️ Voice command recognition
-- 💬 Text-to-speech response
-- 🌐 Open websites (Google, YouTube, etc.)
-- 📝 Notes feature (save and read notes)
-- ⏰ Time and basic utilities
-- 🧠 Smart command handling
+-  Voice command recognition
+-  Text-to-speech response
+-  Open websites (Google, YouTube, etc.)
+-  Notes feature (save and read notes)
+-  Time and basic utilities
+-  Smart command handling
 
 ---
 
@@ -27,7 +27,7 @@ It can perform tasks like responding to voice commands, opening applications, ta
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 MJ/
 │── jarvis.py        # Main assistant logic
@@ -99,6 +99,6 @@ Pull requests are welcome.
 
 ---
 
-# 📜 License
+#  License
 
 This project is open-source and free to use.
