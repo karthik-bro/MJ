@@ -36,7 +36,7 @@ MJ/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository:
 
@@ -63,7 +63,7 @@ iv. Replace in code:
 ## api_key = "YOUR_API_KEY"
 ---
 
-## ▶️ Usage
+##  Usage
 
 Run the assistant:
 
@@ -77,7 +77,7 @@ Then speak commands like:
 
 ---
 
-## 🔧 Future Improvements
+##  Future Improvements
 
 - Add GUI interface
 - Integrate AI APIs (ChatGPT, etc.)
@@ -86,13 +86,13 @@ Then speak commands like:
 - Weather report 
 ---
 
-# 👤 Author
+#  Author
 
 # Karthik
 
 ---
 
-# ⭐ Contribution
+#  Contribution
 
 Feel free to fork this repo and improve it!
 Pull requests are welcome.
